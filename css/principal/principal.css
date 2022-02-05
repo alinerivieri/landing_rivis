@@ -1,0 +1,15 @@
+.principal {
+  height: 700px;
+  align-items: center;
+  background-color: var(--lilas-bg);
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .principal {
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: center;
+  }
+}

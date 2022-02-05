@@ -1,0 +1,42 @@
+.footer {
+  justify-content: center;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.footer__texto {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--fonte-light);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__imagem {
+  position: fixed;
+  right: 0;
+  top: 100%;
+  width: 4em;
+  margin-top: -2.5em;
+  opacity: 40%;
+}
+
+@media (max-width: 768px) {
+  .footer  {
+    height: 200px;
+  }
+
+  .footer__texto  {
+    margin-top: -4rem;
+    font-size: .8rem;
+  }
+
+  .footer__imagem {
+    display: none;
+  }
+}
+

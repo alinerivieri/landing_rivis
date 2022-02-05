@@ -1,0 +1,14 @@
+.planos__titulo {
+  color: var(--fonte-bold);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .planos__titulo {
+    font-size: 2rem;
+  }
+}

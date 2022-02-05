@@ -1,0 +1,12 @@
+.baixe__subtitulo {
+ font-weight: 100;
+ color: var(--fonte-light);
+ line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .baixe__subtitulo  {
+    text-align: center;
+    padding: 1rem;
+  }
+}

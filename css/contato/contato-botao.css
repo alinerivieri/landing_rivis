@@ -1,0 +1,12 @@
+.contato__botao {
+  height: 40px;
+  width: 140px;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contato__botao {
+    margin-left: 0;
+  }
+}

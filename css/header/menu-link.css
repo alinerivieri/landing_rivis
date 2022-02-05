@@ -1,0 +1,8 @@
+.menu__link {
+  color: var(--fonte-light);
+}
+
+.menu__link:hover{
+  text-decoration: underline;
+  color: var(--lilas-link);
+}

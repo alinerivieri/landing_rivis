@@ -1,0 +1,14 @@
+
+.principal__botao.botao { 
+  height: 56px;
+  margin-top: 3rem;
+  padding: 16px 36px;
+  width: 200px;
+}
+
+
+@media (max-width: 768px) {
+  .principal__botao.botao {
+    margin: auto;
+  }
+}

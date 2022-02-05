@@ -1,0 +1,13 @@
+.planos__cartoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .planos__cartoes {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}
+
+

@@ -1,0 +1,32 @@
+.baixe__botao {
+  width: 167px;
+  height: 52px;
+  margin: .8rem;
+}
+
+.baixe__botao.google {
+background-image: url(../../images/google.svg);
+}
+
+.baixe__botao.google:hover {
+  background-image: url(../../images/googlehover.svg);
+  cursor: pointer;
+}
+
+.baixe__botao.apple {
+  background-image: url(../../images/apple.svg);
+}
+
+.baixe__botao.apple:hover {
+  background-image: url(../../images/applehover.svg);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .baixe__botao  {
+    width: 166px;
+  }
+}
+
+
+

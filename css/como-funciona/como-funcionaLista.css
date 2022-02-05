@@ -1,0 +1,11 @@
+.como__funciona--lista {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .como__funciona--lista {
+    flex-wrap: wrap;
+  }
+}

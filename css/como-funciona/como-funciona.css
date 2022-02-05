@@ -1,0 +1,18 @@
+#como__funciona {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  #como__funciona {
+    height: 400px;
+  }
+}
+
+@media (max-width: 427px) {
+  #como__funciona {
+    height: 800px;
+  }
+}

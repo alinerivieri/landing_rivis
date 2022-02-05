@@ -1,0 +1,33 @@
+
+.como__funciona--sub {
+  color: var(--fonte-bold);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.como__funciona--sub.conexao {
+  box-sizing: border-box;
+  background-image: url(../../images/conexao.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 5rem 0 .8rem 0;
+}
+
+.como__funciona--sub.seguro {
+  box-sizing: border-box;
+  background-image: url(../../images/seguro.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 5rem 0 .8rem 0;
+}
+
+.como__funciona--sub.compartilha {
+  box-sizing: border-box;
+  background-image: url(../../images/compartilhado.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 5rem 0 .8rem 0;
+}

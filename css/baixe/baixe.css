@@ -1,0 +1,14 @@
+#baixe {
+  align-items: center;
+  background-color: var(--lilas-bg);
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  #baixe {
+    flex-wrap: wrap;
+    height: 800px;
+  }
+}

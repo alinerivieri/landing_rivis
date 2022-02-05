@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header/cabecalho.css">
+  <link rel="stylesheet" href="./css/header/menu.css">
+  <link rel="stylesheet" href="./css/header/menu-lista.css">
+  <link rel="stylesheet" href="./css/header/menu-link.css">
+  <link rel="stylesheet" href="./css/header/menu-item.css">
+  <link rel="stylesheet" href="./css/header/menu-medias.css">
+  <link rel="stylesheet" href="./css/principal/principal.css">
+  <link rel="stylesheet" href="./css/principal/principal-container.css">
+  <link rel="stylesheet" href="./css/principal/principal-titulo.css">
+  <link rel="stylesheet" href="./css/principal/principal-imagem.css">
+  <link rel="stylesheet" href="./css/principal/principal-botao.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funciona.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funcionaLista.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funcionaItem.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funcionaTitulo.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funcionaSub.css">
+  <link rel="stylesheet" href="./css/como-funciona/como-funcionaTexto.css">
+  <link rel="stylesheet" href="./css/baixe/baixe.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-conteudo.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-titulo.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-subtitulo.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-botoes.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-botao.css">
+  <link rel="stylesheet" href="./css/baixe/baixe-imagem.css">
+  <link rel="stylesheet" href="./css/planos/planos.css">
+  <link rel="stylesheet" href="./css/planos/planos-titulo.css">
+  <link rel="stylesheet" href="./css/planos/planos-subtitulo.css">
+  <link rel="stylesheet" href="./css/planos/planos-cartoes.css">
+  <link rel="stylesheet" href="./css/planos/cartao.css">
+  <link rel="stylesheet" href="./css/contato/contato.css">
+  <link rel="stylesheet" href="./css/contato/contato-titulo.css">
+  <link rel="stylesheet" href="./css/contato/contato-subtitulo.css">
+  <link rel="stylesheet" href="./css/contato/contato-form.css">
+  <link rel="stylesheet" href="./css/contato/contato-email.css">
+  <link rel="stylesheet" href="./css/contato/contato-botao.css">
+  <link rel="stylesheet" href="./css/footer/footer.css">
+
+  <title>Home | Rivis - App</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <img src="./images/logo.svg" alt="Logo Rivis" class="logo">
+    <nav id="menu">
+      <button id="btn-mobile" 
+      aria-haspopup="true" aria-controls="menu__lista" aria-expanded="false" aria-label="Abrir menu"> 
+        
+      <span id="hamburguer"></span>
+      
+      </button>
+      <ul class="menu__lista" role="menu">
+        <li class="menu__item"><a href="#como__funciona" class="menu__link">Funcionalidades</a></li>
+        <li class="menu__item"><a href="#baixe" class="menu__link">App</a></li>
+        <li class="menu__item"><a href="#planos" class="menu__link">Planos</a></li>
+        <li class="menu__item"><a href="#contato" class="menu__link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="principal">
+    <div class="principal__container">
+      <h1 class="principal__titulo">Rivis, <br>
+        é tudo que você <br>
+        precisa em um só lugar </h1>
+      <button class="principal__botao botao">Cadastre-se</button>
+    </div>
+    <img src="./images/img_principal.png" alt="Pessoas mexendo em computadores" class="principal__imagem">
+  </section>
+
+  <section id="como__funciona">
+      <h2 class="como__funciona--titulo">Como Funciona</h2>
+      <ul class="como__funciona--lista">
+          <li class="como__funciona--item">
+            <h2 class="como__funciona--sub conexao">Crie conexões</h2>
+            <p class="como__funciona--texto">Lorem ipsum dolor sit amet, <br>
+              consecteteu.</p>
+          </li>
+          <li class="como__funciona--item">
+            <h2 class="como__funciona--sub seguro">100% Seguro</h2>
+            <p class="como__funciona--texto">Lorem ipsum dolor sit amet,<br>
+              consecteteu.</p>
+          </li>
+          <li class="como__funciona--item">
+            <h2 class="como__funciona--sub compartilha">Compartilhamento</h2>
+            <p class="como__funciona--texto">Lorem ipsum dolor sit amet,<br>
+              consecteteu.</p>
+          </li>
+      </ul>
+  </section>
+  <section id="baixe">
+    <div class="baixe__conteudo">
+        <h2 class="baixe__titulo">Baixe nosso app para desfrutar mais!</h2>
+        <p class="baixe__subtitulo">Amet in elementum nulla scelerisque dui, egestas at. <br> Elit consectetur turpis elementum amet vitae et etiam nec. <br>Varius volutpat hac adipiscing tincidunt pretium.</p>
+        <ul class="baixe__botoes">
+          <a href="#"><li class="baixe__botao google"></li></a>
+          <a href="#"><li class="baixe__botao apple"></li></a>
+        </ul>
+    </div>
+    <img src="./images/img_secundaria.png" alt="Tela de celular com varios aplicativos" class="baixe__imagem">
+  </section>
+  <section id="planos">
+    <h2 class="planos__titulo">Nossos Planos</h2>
+    <p class="planos__subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec lacinia mi quis euismod ultrices.</p>
+    <ul class="planos__cartoes">
+      <li class="cartao cartao--bronze">
+        <h3 class="cartao__titulo">Bronze</h3>
+        <article class="cartao__conteudo">
+          <div class="cartao__valor">
+              <p class="cartao__cifra"><em>R$</em></p>
+              <p class="cartao__numero">28</p>
+              <p class="cartao__periodo">/mês</p>
+          </div>
+          <p class="cartao__texto">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Donec lacinia mi quis euismod ultrices.</p>
+          <button class="planos__botao botao"><a href="#">Assinar</a></button>
+        </article>
+      </li>
+      <li class="cartao cartao--prata">
+        <h3 class="cartao__titulo prata">Prata</h3>
+        <p class="cartao__preferido">P R E F E R I D O</p>
+        <article class="cartao__conteudo">
+          <div class="cartao__valor">
+            <p class="cartao__cifra"><em>R$</em></p>
+            <p class="cartao__numero">57</p>
+            <p class="cartao__periodo">/mês</p>
+          </div>
+          <p class="cartao__texto">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Donec lacinia mi quis euismod ultrices.</p>
+          <button class="planos__botao botao botao--prata"><a href="#">Assinar</a></button>
+        </article>
+      </li>
+      <li class="cartao cartao--ouro">
+        <h3 class="cartao__titulo">Ouro</h3>
+        <article class="cartao__conteudo">
+          <div class="cartao__valor">
+            <p class="cartao__cifra"><em>R$</em></p>
+            <p class="cartao__numero">98</p>
+            <p class="cartao__periodo">/mês</p>
+          </div>
+          <p class="cartao__texto">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Donec lacinia mi quis euismod ultrices.</p>
+          <button class="planos__botao botao"><a href="#">Assinar</a></button>
+        </article>
+      </li>
+    </ul>
+  </section>
+  <section id="contato">
+    <h2 class="contato__titulo">Contato</h2>
+    <p class="contato__subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec lacinia mi quis euismod ultrices.</p>
+    <form class="contato__form">
+      <input type="email" class="contato__email" placeholder="Seu melhor e-mail">
+      <button class="contato__botao botao"><a href="#">Enviar</a></button> 
+    </form>
+  </section>
+  <footer class="footer">
+      <p class="footer__texto">Rivis - Todos os direitos reservados.</p>
+      <a href="#cabecalho" class="footer__imagem"><img src="./images/seta.svg" alt="Clicar para voltar ao topo"></a>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

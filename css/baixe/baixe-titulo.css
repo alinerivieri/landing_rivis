@@ -1,0 +1,13 @@
+.baixe__titulo {
+  color: var(--fonte-bold);
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .baixe__titulo  {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}

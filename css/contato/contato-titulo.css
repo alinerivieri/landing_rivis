@@ -1,0 +1,13 @@
+.contato__titulo {
+  color: var(--lilas-bg);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 4rem;
+}
+
+@media (max-width: 768px) {
+  .contato__titulo {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,13 @@
+.principal__titulo {
+  color: var(--fonte-bold);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .principal__titulo {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}

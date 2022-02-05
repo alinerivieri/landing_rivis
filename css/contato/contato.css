@@ -1,0 +1,8 @@
+#contato {
+  background-image: url(../../images/bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}

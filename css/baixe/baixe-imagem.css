@@ -1,0 +1,10 @@
+.baixe__imagem {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .baixe__imagem  {
+    height: 250px;
+  }
+}

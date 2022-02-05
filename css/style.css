@@ -1,0 +1,31 @@
+:root {
+ --lilas-bg: #f5f5fd;
+ --lilas-link: #75628B;
+ --lilas-botao: #A6A3D1;
+ --fonte-light: #6E7275;
+ --fonte-bold: #293145;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.botao {
+  background: var(--lilas-botao);
+  box-shadow: 3px 3px 13px rgba(179, 175, 175, 0.5);
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  }
+
+  .botao:hover{
+    background: var(--lilas-link);
+    cursor: pointer;
+  }

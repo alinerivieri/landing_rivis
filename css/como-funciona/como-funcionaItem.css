@@ -1,0 +1,6 @@
+.como__funciona--item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+

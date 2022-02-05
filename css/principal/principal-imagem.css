@@ -1,0 +1,9 @@
+.principal__imagem {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .principal__imagem {
+    height: 300px;
+  }
+}
