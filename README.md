@@ -38,4 +38,5 @@ This project was based on the design created and made available at Figma by Iuri
 
 💻 Result:
 
+Veja a aplicação [aqui](https://landing-rivis.vercel.app/)
 ![Preview page GIF](./images/preview.gif)
